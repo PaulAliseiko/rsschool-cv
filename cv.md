@@ -6,6 +6,7 @@
 + Location: Minsk, Belarus
 + Email: sever000host@gmail.com
 + [My GitHub](https://github.com/PaulAliseiko)
++ [My discord](https://discordapp.com/users/752179237561303090/)
 
 ## About Me
 
