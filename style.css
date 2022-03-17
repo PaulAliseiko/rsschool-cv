@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    line-height: 40px;
+}
+body.lock {
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+pre {
+    margin: 0;
+}
+.icon {
+    height: 150px;
+    width: 150px;
+}
+.mini {
+    height: 150px;
+    width: 320px;
+}
+.section-header {
+    text-align: center;
+    padding-bottom: 20px;
+    max-width: 320px;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./assets/images/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color:gainsboro;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    justify-content: space-between;
+}
+.logo {
+    align-self: center;
+    margin-left: 15px;
+}
+.logo-item {
+    height: 50px;
+    width: 50px;
+}
+.burger {
+    display: none;
+    background-image: url(./assets/icons/menu.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: center;
+    margin-left: auto;
+    margin-right: 15px;
+    height: 50px;
+    width: 50px;
+}
+.nav-container {
+    margin-left: auto;
+    margin-right: 15px;
+    z-index: 0;
+    overflow: auto;
+}
+.nav-list {
+    display: flex;
+    flex-direction: row;
+}
+.nav-item {
+    list-style: none;
+    transition: .3s;
+}
+.nav-link:hover {
+    color: dimgrey;
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+    transition: 0.3s;
+}
+.main-content {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    background-color: rgba(256, 256, 256, 0.9);
+}
+.hero {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.hero-text {
+    max-width: 730px;
+    padding: 25px;
+}
+.photo-item {
+    height: 285px;
+    width: 230px;
+    margin-top: 58px;
+    margin-left: 10px;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+    align-items: center;
+}
+.skills-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.skills-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    padding: 15px;
+    width: 200px;
+}
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.education-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.education-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 40px;
+    width: 200px;
+    text-align: center;
+    
+}
+.code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.code-example {
+    background-color: rgb(177, 172, 172);
+    font-size: 18px;
+    padding: 15px;
+    align-items: center;
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.projects-item {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+}
+.mini {
+    transition: .3s;
+}
+.mini:hover {
+    transform: scale(1.05) rotate(0.8deg);
+    transition: 0.3s;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacts-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.contacts-item {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+    margin-bottom: 15px;
+    text-align: center;
+    transition: .3s;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color:gainsboro;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 28px;
+    flex-wrap: wrap;
+}
+.rs-logo {
+    width: 120px;
+    height: 70px;
+    transition: .3s;
+}
+.git {
+    transition: .3s;
+}
+.git:hover {
+    transform: scale(1.05) rotate(1deg);
+    transition: 0.3s;
+}
+.rs-logo:hover {
+    transform: scale(1.05) rotate(1deg);
+    transition: 0.3s;
+}
