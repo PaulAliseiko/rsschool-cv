@@ -17,6 +17,8 @@ I have good learning skills and mentoring expirience.
 
 + HTML & CSS Basics. In progress
 + JavaScript Basics. In progress
++ Figma Basics
++ Git Basics
 + B1 English level
 
 ## My code example
